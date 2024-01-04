@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @fatihkaratash
-- 👀 I’m interested in QA
-- 🌱 I’m currently learning Java
+- 👀 I’m interested in Dev
+- 🌱 I’m currently learning ..
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
