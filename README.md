@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @fatihkaratash
 - 👀 I’m interested in Dev
-- 🌱 I’m currently learning ..
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 🌱 I’m currently learning React Nativr
+- 💞️ I’m looking to collaborate on Mobile App
+- 📫 How to reach me by github
 
 <!---
 fatihkaratash/fatihkaratash is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
