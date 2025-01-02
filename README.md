@@ -1,7 +1,5 @@
 - 👋 Hi, I’m @fatihkaratash
-- 👀 I’m interested in Dev
-- 🌱 I’m currently learning React + Spring Boot
-- 💞️ I’m looking to collaborate on Backend Projects
+
 - 📫 Reach me!
 
 <!---
