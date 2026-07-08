@@ -2,31 +2,31 @@
 
 **Backend-leaning Full-Stack Developer** · Real-time & Financial-data Systems · AI-native · CS Student @ Sakarya
 
-I turn business workflows into working software — frontend, backend, APIs, data models, and deployment as one system.
+I build full-stack apps around real business workflows: frontend, backend, APIs, data models, and deployment.
 
 ---
 
-## Professional work — _mostly under NDA_
+## Professional work (mostly under NDA)
 
-Real production platforms I've built and modernized (client/startup work, so described without names):
+Most of what I do is client and startup work I can't name. Here's what I actually built:
 
-- **Marketplace platform** _(early-stage international startup)_ — listing & application workflows, user journeys, REST APIs, SQL-backed business data, SEO-aware Next.js rendering, and data-driven risk-scoring flows.
-- **University-application platform** — a legacy system modernized into a clean full-stack app with separate public / portal / admin surfaces; auth, i18n routing, and relational data modeling.
-- **Internal admin & reporting panel** — role-based operational and reporting surfaces over the same domain, built for maintainability.
+- **Marketplace platform** _(early-stage international startup)_ — listing and application workflows, REST APIs, SQL data models, SEO-focused Next.js rendering, and data-driven risk scoring.
+- **University-application platform** — modernized a legacy system into a full-stack app with separate public, portal, and admin surfaces; auth, i18n routing, and relational data modeling.
+- **Internal admin & reporting panel** — role-based admin and reporting screens on top of the same backend.
 
-_Next.js · TypeScript · Java · Prisma · MySQL · Docker · CI/CD_
+_Java · Spring Boot · REST APIs · Next.js · TypeScript · Prisma · MySQL · Docker · CI/CD_
 
 ---
 
 ## Public projects
 
 **[Fintech RTS](https://github.com/fatihkaratash/toyota-rts-fintech) — real-time financial-data microservices**
-Spring Boot services for real-time financial data and simulated exchange flows: Kafka async messaging, Redis caching (**~20% lower latency**), PostgreSQL / OpenSearch persistence, Dockerized. Built around idempotent processing and clean async service boundaries.
+Spring Boot services for real-time financial data and simulated exchange flows. Kafka for async messaging, Redis caching (**~20% lower latency**), PostgreSQL / OpenSearch persistence, Dockerized. Built around idempotent processing and async service boundaries.
 `Java · Spring Boot · Kafka · Redis · PostgreSQL · Docker`
 
 **[FundMateAI](https://github.com/fatihkaratash/fundmate-ai) — cloud finance assistant**
-Spring API gateway + Python/FastAPI analysis endpoints, auth flow, AI-agent integration, on AWS EC2.
-`Java · FastAPI · AWS EC2`
+Spring API gateway with Python/FastAPI analysis endpoints, auth flow, AI-agent integration, deployed on AWS EC2.
+`Java · Spring Boot · FastAPI · AWS EC2`
 
 **[tennis-hub](https://github.com/fatihkaratash/tennis-hub)** — club platform: league flow, events, member discovery, admin ops. `Next.js`
 
@@ -34,7 +34,9 @@ Spring API gateway + Python/FastAPI analysis endpoints, auth flow, AI-agent inte
 
 ## How I work
 
-Specs before code · small reviewable PRs · typed data flow. For money and real-time systems I care about the guarantees they actually need — **exact money (integers, not floats), idempotency, and reconciliation** — not just "works in the demo." I use AI to ship faster without giving up ownership of what I build.
+Clear specs before I start. Small PRs that are easy to review. Typed code. I lean on AI a lot, but I read and understand everything before it ships.
+
+I'm getting into open source and want to start contributing to Java/Spring and backend tooling projects — open to good first issues and collaboration.
 
 ---
 
