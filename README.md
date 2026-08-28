@@ -1,46 +1,28 @@
 # Fatih Karataş
 
-**Full-Stack Developer** · Real-time & Financial-data Systems · AI-native · CS  @ Sakarya @ Eskisehir
+**Product engineer** | backend and applied AI.
 
-I build full-stack apps around real business workflows: frontend, backend, APIs, data models, and deployment.
+I work on systems that are already running and can't be taken down to be fixed. Legacy platforms, client backends, and the operational workflows on top of them. Java and Spring on the backend, Next.js when there's a UI, and LLMs where a workflow needs judgment rather than another rule.
 
----
+## What I've shipped
 
-## Professional work (mostly under NDA)
+Most of it is client and startup work under NDA.
 
-Most of what I do is client and startup work I can't name. Here's what I actually built:
+- **Germany-based agency.** Modernized a legacy web platform and its operational workflows while it stayed in production. Old and new ran in parallel. I mapped the existing workflows and what each one touched before changing anything, then refactored against specific targets instead of rewriting wholesale. Public, portal and admin surfaces, auth, i18n routing, relational data modeling.
+- **AI systems, same client.** LLM and RAG pipelines over the platform's own documents and data, built into the existing operational workflows.
+- **Marketplace platform**, early-stage international startup. Listing and application workflows, REST APIs, SEO-critical Next.js rendering, data-driven risk scoring.
+- **Internal admin and reporting panel** on the same backend, role-based.
 
-- **Marketplace platform** _(early-stage international startup)_. Listing and application workflows, REST APIs, SQL data models, SEO-focused Next.js rendering, and data-driven risk scoring.
-- **University-application platform.** Modernized a legacy system into a full-stack app with separate public, portal, and admin surfaces; auth, i18n routing, and relational data modeling.
-- **Internal admin & reporting panel.** Role-based admin and reporting screens on top of the same backend.
+## Open source
 
-_Java · Spring Boot · REST APIs · Next.js · TypeScript · Prisma · MySQL · Docker · CI/CD_
+**[heymrun/heym](https://github.com/heymrun/heym)**, AI-native workflow automation. [PR #500](https://github.com/heymrun/heym/pull/500), merged: pulled ClickHouse execution out of the monolithic workflow executor into its own node module, with tests.
 
----
+## Public code
 
-## Public projects
+**[Fintech RTS](https://github.com/fatihkaratash/toyota_rts_fintech)**. Real-time market data through Kafka into Redis, PostgreSQL and OpenSearch. Built around two constraints: a replayed message must not corrupt state, and one tick must stay traceable end to end under concurrent consumers. _Java 21 · Spring Boot · Docker_
 
-**[Fintech RTS](https://github.com/fatihkaratash/toyota-rts-fintech) · real-time financial-data microservices**
-Spring Boot services for real-time financial data and simulated exchange flows. Kafka for async messaging, Redis caching (**~20% lower latency**), PostgreSQL / OpenSearch persistence, Dockerized. Built around idempotent processing and async service boundaries.
-`Java · Spring Boot · Kafka · Redis · PostgreSQL · Docker`
-
-**[FundMateAI](https://github.com/fatihkaratash/fundmate-ai) · cloud finance assistant**
-Spring API gateway with Python/FastAPI analysis endpoints, auth flow, AI-agent integration, deployed on AWS EC2.
-`Java · Spring Boot · FastAPI · AWS EC2`
-
-**[tennis-hub](https://github.com/fatihkaratash/tennis-hub)** · club platform: league flow, events, member discovery, admin ops. `Next.js`
+**[FitMind AI](https://github.com/fatihkaratash/fitmind_ai)**. Gym management and appointments with a Gemini-backed assistant. _C# · ASP.NET Core MVC · PostgreSQL_
 
 ---
 
-## Open Source
-
-I'm getting into open source and want to start contributing to Java/Spring and backend tooling projects. Open to good first issues and collaboration.
-
----
-
-## Stack
-
-**Core:** Java / Spring Boot · TypeScript / Next.js · SQL · Docker
-**Also:** React · Node.js · FastAPI · Kafka · Redis · PostgreSQL · OpenSearch · AWS EC2 · Git · CI/CD
-
-[**LinkedIn**](https://www.linkedin.com/in/fatihkaratash/) · f.karatash.dev@gmail.com
+[LinkedIn](https://www.linkedin.com/in/fatihkaratash/) · [f.karatash.dev@gmail.com](mailto:f.karatash.dev@gmail.com)
