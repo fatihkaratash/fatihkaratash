@@ -1,6 +1,6 @@
 # Fatih Karataş
 
-**Product engineer** | backend and applied AI.
+**Software engineer** | backend and applied AI.
 
 I work on systems that are already running and can't be taken down to be fixed. Legacy platforms, client backends, and the operational workflows on top of them. Java and Spring on the backend, Next.js when there's a UI, and LLMs where a workflow needs judgment rather than another rule.
 
