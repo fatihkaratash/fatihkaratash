@@ -15,13 +15,18 @@ Most of it is client and startup work under NDA.
 
 ## Open source
 
-**[heymrun/heym](https://github.com/heymrun/heym)**, AI-native workflow automation, 1k+ stars.
+**[genex-desktop](https://github.com/genex-games/genex-desktop)**, AI game studio, 600+ stars
 
-- **[GHSA-xchj-mw74-2232](https://github.com/heymrun/heym/security/advisories/GHSA-xchj-mw74-2232), reported.** Credential-controlled base URL SSRF reaching internal and cloud-metadata addresses across six integrations (Jira, Sentry, GitHub, Grist, Supabase, custom OpenAI-compatible endpoints). The project's own egress guard existed but wasn't wired into these services.
-- **[GHSA-fmpw-hj3m-xvj6](https://github.com/heymrun/heym/security/advisories/GHSA-fmpw-hj3m-xvj6), reported and fixed.** A Redis node fell back to an unauthenticated `localhost:6379` connection when the credential lookup failed instead of failing closed. Fix and regression tests merged.
-- **[PR #500](https://github.com/heymrun/heym/pull/500), merged.** Extracted ClickHouse execution from a 9,604-line monolithic workflow executor into its own node module, with 30 tests passing and no behavior change.
+- [#138](https://github.com/genex-games/genex-desktop/pull/138) merged: per-run `HOME` isolation for agent tooling
+- [#140](https://github.com/genex-games/genex-desktop/pull/140) in review: eval and telemetry parity for tool calls
 
-Credited in [SECURITY.md](https://github.com/heymrun/heym/blob/main/SECURITY.md) and the [v0.0.105 release notes](https://github.com/heymrun/heym/releases/tag/v0.0.105).
+**[heym](https://github.com/heymrun/heym)**, AI workflow automation, 1k+ stars
+
+- [GHSA-xchj-mw74-2232](https://github.com/heymrun/heym/security/advisories/GHSA-xchj-mw74-2232): SSRF via credential-controlled base URLs
+- [GHSA-fmpw-hj3m-xvj6](https://github.com/heymrun/heym/security/advisories/GHSA-fmpw-hj3m-xvj6) fixed: Redis fail-open to fail-closed
+- [#500](https://github.com/heymrun/heym/pull/500) merged: executor decomposition, zero behaviour change
+
+Credited in [SECURITY.md](https://github.com/heymrun/heym/blob/main/SECURITY.md) and [v0.0.105](https://github.com/heymrun/heym/releases/tag/v0.0.105).
 
 ## Public code
 
