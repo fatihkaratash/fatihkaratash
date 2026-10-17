@@ -18,7 +18,7 @@ Most of it is client and startup work under NDA.
 **[genex-desktop](https://github.com/genex-games/genex-desktop)**, AI game studio, 600+ stars
 
 - [#138](https://github.com/genex-games/genex-desktop/pull/138) merged: per-run `HOME` isolation for agent tooling
-- [#140](https://github.com/genex-games/genex-desktop/pull/140) in review: eval and telemetry parity for tool calls
+- [#140](https://github.com/genex-games/genex-desktop/pull/140) merged: eval and telemetry parity for tool calls
 
 **[heym](https://github.com/heymrun/heym)**, AI workflow automation, 1k+ stars
 
